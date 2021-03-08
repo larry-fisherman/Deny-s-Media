@@ -29,3 +29,8 @@
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
   display: none;
+  
+  body {
+background-image: url("background.jpg"), url("background.jpg");
+background-color: #cccccc;
+}
