@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<head>
+
+<link rel="stylesheet" type="text/css" href="main.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+</style>
+<link rel="apple-touch-icon" href="img1.jpg">
+<link rel="apple-touch-icon" href="img1.jpg"></head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee;
+}
+<link rel="apple-touch-icon" href="img1.jpg">
+<link rel="apple-touch-icon" href="img1.jpg">
+</style>
+</head>
+<body>
+
+</div>
+<h2>Search For Shows or Movies</h2>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for shows/movies.." title="Type in a show or movie">
+
+<ul id="myUL">
+  <li><a href="#">Bugs Bunny and Road Runner Movie</a></li>
+  <li><a href="#">Looney Tunes Golden Collection</a></li>
+ <li><a href="#">Duck Dodgers</a></li>
+  <li><a href="#">Pepe Le Pew</a></li>
+  <li><a href="#">Daffy Duck</a></li>
+  <li><a href="#">Wile E. Coyote & Road Runner</a></li>
+  <li><a href="#">Spider-Man 1967</a></li>
+  <li><a href="#">Scooby-Doo Where Are You?</a></li>
+  <li><a href="#">Pink Panther Show</a></li>
+  <li><a href="#">The Ant & The Aardvark</a></li>
+  <li><a href="#">The Flintstones</a></li>
+  <li><a href="#">The Jetsons</a></li>
+  <li><a href="#">Samurai Jack</a></li>
+  <li><a href="#">Yogi's First Christmas</a></li>
+  <li><a href="#">Top Cat</a></li>
+  <li><a href="#">Top Cat Movie 1988</a></li>
+  <li><a href="#">Top Cat Movie 2011</a></li>
+  <li><a href="#">Popeye</a></li>
+  <li><a href="#">Smurfs Christmas Special</a></li>
+  <li><a href="#">The New Scooby-Doo Mysteries</a></li>
+  <li><a href="#">Snow White And The Seven Dwarfs</a></li>
+  <li><a href="#">Dumbo</a></li>
+  <li><a href="#">The Flintstones Meet Rockula & Frankenstone</a></li>
+  <li><a href="#">The Flintstones New Neighbours</a></li>
+ <li><a href="#">How The Grinch Stole Christmas</a></li>
+ <li><a href="#">Spirited Away</a></li>
+ <li><a href="#">Jetsons The Movie</a></li>
+ <li><a href="#">Thundarr</a></li>
+ <li><a href="#">Battle Of The Planets</a></li>
+ <li><a href="#">Zorro</a></li>
+ <li><a href="#">Captain Caveman</a></li>
+ <li><a href="#">Hercules</a></li>
+ <li><a href="#">Spider-Man & His Amazing Friends</a></li>
+ <li><a href="#">Hulk 1982</a></li>
+ <li><a href="#">Godzilla</a></li>
+ <li><a href="#">Rocket Robin Hood</a></li>
+ <li><a href="#">Charlie Brown & Snoopy</a></li>
+ <li><a href="#">Justice League</a></li>
+ <li><a href="#">Justice League Crisis On Two Earths</a></li>
+ <li><a href="#">Batman Beyond Return Of The Joker</a></li>
+ <li><a href="#">Batman Beyond</a></li>
+</ul>
+
+<script>
+function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+</script>
+
+</body>
+</html>
