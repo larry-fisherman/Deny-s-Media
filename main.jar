@@ -6,3 +6,8 @@ function myFunction() {
     x.className = "topnav";
   }
 }
+
+PullToRefresh.init({
+  mainElement: 'main',
+  onRefresh: function() { setTime() }
+});
