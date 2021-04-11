@@ -1,8 +1,8 @@
-  _                             _  _     _                  _   
- | |   ___  ___ _ _  ___ _  _  | \| |___| |___ __ _____ _ _| |__
- | |__/ _ \/ _ \ ' \/ -_) || | | .` / -_)  _\ V  V / _ \ '_| / /
- |____\___/\___/_||_\___|\_, | |_|\_\___|\__|\_/\_/\___/_| |_\_\
-                         |__/                                   
+  _                             _  _     _                  _.   
+ | |   ___  ___ _ _  ___ _  _  | \| |___| |___ __ _____ _ _| |__.
+ | |__/ _ \/ _ \ ' \/ -_) || | | .` / -_)  _\ V  V / _ \ '_| / /.
+ |____\___/\___/_||_\___|\_, | |_|\_\___|\__|\_/\_/\___/_| |_\_\.
+                         |__/.                                   
                                                                                                                        
                                                                                                                        
 Watch childhood classics! The aim of this project is to provide the safest, ad-free, easy to use streaming service for free. I strongly feel ads not only are unsafe, and intrusive but make any product unusable. Many ads and pop ups contain pornography and or malware on alternative services. This is why Looney Network and all of its services and products will always be 100% ad-free. Safe
